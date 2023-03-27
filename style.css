@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container .karadelik .cart-1 {
+    border: 1px solid #c8ccd1;
+    width: 223px;
+    margin-left: 20px;
+    padding: 7px;
+}
+
+.container .karadelik .cart-1 img  {
+    border: 1px solid #c8ccd1;
+    padding: 4px;
+}
+
+.container .karadelik .cart-2 {
+    border: 1px solid #c8ccd1;
+    width: 260px;
+    margin-left: 20px;
+    padding: 7px;
+}
+
+.container .karadelik .cart-2 img  {
+    border: 1px solid #c8ccd1;
+    padding: 4px;
+}
+
+.container .karadelik .cart-3 {
+    border: 1px solid #c8ccd1;
+    width: 270px;
+    margin-left: 20px;
+    padding: 7px;
+}
+
+.container .karadelik .cart-3 img  {
+    border: 1px solid #c8ccd1;
+    padding: 4px;
+}
+
+.container .karadelik .cart-4 {
+    border: 1px solid #c8ccd1;
+    width: 320px;
+    margin-left: 20px;
+    padding: 7px;
+}
+
+.container .karadelik .cart-4 img  {
+    border: 1px solid #c8ccd1;
+    padding: 4px;
+}
+
+.container .karadelik{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 80px;
+}
+.container .karadelik p{
+    font-family: sans-serif;
+    
+}
+
+.container .karadelik .cart-1 img {
+    height: 200px;
+}
+
+.container .pencil h2 {
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 40px;
+}
+
+.container .pencil p{
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1000px)
+{
+    .karadelik{
+        flex-direction: column;
+    }
+}
