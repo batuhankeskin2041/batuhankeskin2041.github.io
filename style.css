@@ -36,14 +36,14 @@ h3{
 @media screen and (max-width:600px)
 {
     .ilk img{
-        margin-left: 100px;
+        margin-left: 80px;
     }
     h3{
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: 20px;
     }
     .ikinci img{
-        margin-left: 90px;
+        margin-left: 40px;
         width: 280px;
         margin-top: 20px;
     }
