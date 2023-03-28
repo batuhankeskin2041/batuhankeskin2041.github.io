@@ -7,16 +7,25 @@ body{
     background-color: #dcdde1;
 }
 
+ul {
+    color: black;
+    text-decoration: none;
+    margin-left: 530px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+
 .ilk img {
     margin-left: 600px;
     margin-top: 30px;
     width: 200px;
     border-radius: 3px;
-}
-
-.ikinci img{
-    margin-left: 430px;
-    width: 40%;
 }
 
 h1{
@@ -32,6 +41,26 @@ h2{
 
 h3{
     margin-left: 650px;
+    margin-top: -610px;
+}
+
+audio{
+    margin-left: 560px;
+    margin-top: 10px;
+}
+
+.flag .that-flag-2{
+    float: right;
+    margin-top: -890px;
+}
+
+.flag .that-flag-1{
+    margin-top: -280px;
+}
+
+.flag{
+    border-radius: 6px;
+    display: inline;
 }
 
 @media screen and (max-width:600px)
