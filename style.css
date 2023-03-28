@@ -63,18 +63,35 @@ audio{
     display: inline;
 }
 
-@media screen and (max-width:600px)
-{
+@media screen and (max-width:600px){
+    .flag .that-flag-1{
+        display: inline;
+        margin-top: 400px;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    .flag .that-flag-2{
+        margin-left: 400px;
+        margin-top: 200px;
+    }
     .ilk img{
-        margin-left: 80px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 140px;
     }
     h3{
-        margin-left: 50px;
-        margin-top: 20px;
+        float: right;
+        margin-right: 170px;
+        margin-top: -1075px;
+        font-size: 30px;
     }
-    .ikinci img{
-        margin-left: 40px;
-        width: 280px;
-        margin-top: 20px;
+    audio{
+        float: right;
+        margin-top: -999px;
+        margin-right: 100px;
+    }
+    ul{
+        margin-left: 25px;
     }
 }
