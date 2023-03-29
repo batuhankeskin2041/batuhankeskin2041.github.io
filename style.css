@@ -79,19 +79,16 @@ audio{
         margin-top: 10px;
         margin-right: 40px;
     }
-    h2{
-        margin-left:40px;
-    }
     h3{
         float: right;
-        margin-right: 170px;
+        margin-right: -170px;
         margin-top: -1075px;
         font-size: 30px;
     }
     audio{
         float: right;
         margin-top: -999px;
-        margin-right: 60px;
+        margin-right: -60px;
     }
     ul{
         margin-left: 25px;
