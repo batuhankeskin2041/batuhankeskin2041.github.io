@@ -67,6 +67,7 @@ audio{
     .flag .that-flag-1{
         display: inline;
         margin-top: 400px;
+        width: 50%;
     }
     html{
         overflow-x: hidden;
